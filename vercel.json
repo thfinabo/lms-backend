@@ -1,5 +1,17 @@
 {
     "version": 2,
+    "installs": [
+        {
+          "src": "./",
+          "use": "@verce/npm"
+        }
+      ],
+    "builds": [
+        {
+          "src": "index.js",
+          "use": "@vercel/node"
+        }
+      ],
     "routes": [
       {
         "src": "/(.*)",
